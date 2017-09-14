@@ -1,0 +1,3 @@
+npm install -g json-server 
+
+json-server --routes routes.json --watch db.json --static ./public
