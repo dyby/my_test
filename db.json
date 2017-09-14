@@ -1,9 +1,27 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  users:[
+	{username:'admin',password:'admin'}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  info:[
+	{
+		id:1,
+		edittime:'2018-05-06',
+		addr:'成都市高新',
+		name:'杨先生',
+		phone:'17828001595',
+		item:'地面清洁',
+		area:'200',
+		charge:'2',
+		worker:'张三,',
+		remark:'小心花瓶',
+		form:'微信',
+	}
   ],
-  "profile": { "name": "typicode" }
+  items:[
+	{ id : 1 , name:'地面清洁'}
+  ],
+  workers:[
+	{ id: 1 , name:'张三'}
+  ]
+  
 }
